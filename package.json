@@ -1,0 +1,19 @@
+{
+  "name": "control-ui-kit",
+  "version": "1.0.6",
+  "description": "CSS plugin to add the required Control UI Kit CSS utilities",
+  "main": "styles.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/control-ui-kit/control-ui-kit-styles.git"
+  },
+  "author": "Chris Chambers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/control-ui-kit/control-ui-kit-styles/issues"
+  },
+  "homepage": "https://github.com/control-ui-kit/control-ui-kit-styles#readme"
+}

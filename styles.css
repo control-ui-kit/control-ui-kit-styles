@@ -1,0 +1,157 @@
+.bg-app { background-color: var(--app-bg); }
+.bg-footer { background-color: var(--footer-bg); }
+.bg-header { background-color: var(--header-bg); }
+.bg-header-hover { background-color: var(--header-bg-hover); }
+.bg-nav-bar { background-color: var(--nav-bar-bg); }
+.bg-nav-bar-hover { background-color: var(--nav-bar-bg-hover); }
+.bg-nav-option { background-color: var(--nav-option-bg); }
+.bg-nav-option-hover { background-color: var(--nav-option-bg-hover); }
+.bg-nav-profile-header { background-color: var(--nav-profile-header-bg); }
+.bg-toolbar { background-color: var(--toolbar-bg); }
+.bg-button-brand { background-color: var(--button-brand-bg); }
+.bg-button-brand-hover { background-color: var(--button-brand-bg-hover); }
+.bg-button-default { background-color: var(--button-default-bg); }
+.bg-button-default-hover { background-color: var(--button-default-bg-hover); }
+.bg-button-muted { background-color: var(--button-muted-bg); }
+.bg-button-muted-hover { background-color: var(--button-muted-bg-hover); }
+.bg-table-header { background-color: var(--table-header-bg); }
+.bg-table-row-1 { background-color: var(--table-row-bg-1); }
+.bg-table-row-2 { background-color: var(--table-row-bg-2); }
+.bg-table-row-muted { background-color: var(--table-row-muted-bg); }
+.bg-panel { background-color: var(--panel-bg); }
+.bg-modal { background-color: var(--modal-bg); }
+.bg-modal-blur { background-color: var(--modal-blur-bg); }
+.bg-modal-header { background-color: var(--modal-header-bg); }
+.bg-modal-footer { background-color: var(--modal-footer-bg); }
+.bg-input { background-color: var(--input-bg); }
+.bg-input-brand { background-color: var(--brand-default); }
+.bg-input-muted { background-color: var(--input-muted-bg); }
+.bg-success { background-color: var(--success); }
+.bg-error { background-color: var(--error); }
+.bg-warning { background-color: var(--warning); }
+.bg-info { background-color: var(--info); }
+.bg-debug { background-color: var(--debug); }
+.bg-brand-lightest { background-color: var(--brand-lightest); }
+.bg-brand-lighter { background-color: var(--brand-lighter); }
+.bg-brand-light { background-color: var(--brand-light); }
+.bg-brand { background-color: var(--brand-default); }
+.bg-brand-dark { background-color: var(--brand-dark); }
+.bg-brand-darker { background-color: var(--brand-darker); }
+.bg-brand-darkest { background-color: var(--brand-darkest); }
+
+.border-transparent { border-color: transparent; }
+.border-default { border-color: var(--border); }
+.border-header { border-color: var(--header-border); }
+.border-footer { border-color: var(--footer-border); }
+.border-nav-divider { border-color: var(--nav-divider); }
+.border-nav { border-color: var(--nav-border); }
+.border-toolbar { border-color: var(--toolbar-border); }
+.border-nav-avatar { border-color: var(--nav-avatar-border); }
+.border-button-brand { border-color: var(--button-brand-border); }
+.border-button-brand-hover { border-color: var(--button-brand-border-hover); }
+.border-button-default { border-color: var(--button-default-border); }
+.border-button-default-hover { border-color: var(--button-default-border-hover); }
+.border-button-muted { border-color: var(--button-muted-border); }
+.border-button-muted-hover { border-color: var(--button-muted-border-hover); }
+.border-table { border-color: var(--table-border); }
+.border-table-divider { border-color: var(--table-divider); }
+.border-panel { border-color: var(--panel-border); }
+.border-panel-divider { border-color: var(--panel-divider); }
+.border-modal { border-color: var(--modal-border); }
+.border-input { border-color: var(--input-border); }
+.border-input-focus { border-color: var(--input-focus-border); }
+.border-success { border-color: var(--success); }
+.border-error { border-color: var(--error); }
+.border-warning { border-color: var(--warning); }
+.border-info { border-color: var(--info); }
+.border-debug { border-color: var(--debug); }
+
+.text-default { color: var(--default); }
+.text-muted { color: var(--muted); }
+.text-link { color: var(--link); }
+.text-link-hover { color: var(--link-hover); }
+.text-footer { color: var(--footer); }
+.text-header { color: var(--header); }
+.text-header-muted { color: var(--header-muted); }
+.text-header-link { color: var(--header-link); }
+.text-header-link-hover { color: var(--header-link-hover); }
+.text-nav-bar { color: var(--nav-bar); }
+.text-nav-bar-hover { color: var(--nav-bar-hover); }
+.text-nav-option { color: var(--nav-option); }
+.text-nav-option-hover { color: var(--nav-option-hover); }
+.text-nav-icon { color: var(--nav-icon); }
+.text-nav-icon-hover { color: var(--nav-icon-hover); }
+.text-nav-profile { color: var(--nav-profile); }
+.text-nav-muted { color: var(--nav-muted); }
+.text-toolbar { color: var(--toolbar); }
+.text-button-brand { color: var(--button-brand); }
+.text-button-brand-hover { color: var(--button-brand-hover); }
+.text-button-brand-icon { color: var(--button-brand-icon); }
+.text-button-brand-icon-hover { color: var(--button-brand-icon-hover); }
+.text-button-default { color: var(--button-default); }
+.text-button-default-hover { color: var(--button-default-hover); }
+.text-button-default-icon { color: var(--button-default-icon); }
+.text-button-default-icon-hover { color: var(--button-default-icon-hover); }
+.text-button-muted { color: var(--button-muted); }
+.text-button-muted-hover { color: var(--button-muted-hover); }
+.text-button-muted-icon { color: var(--button-muted-icon); }
+.text-button-muted-icon-hover { color: var(--button-muted-icon-hover); }
+.text-table-header { color: var(--table-header); }
+.text-table-header-hover { color: var(--table-header-hover); }
+.text-table-row { color: var(--table-row); }
+.text-table-row-muted { color: var(--table-row-muted); }
+.text-panel { color: var(--panel); }
+.text-panel-header { color: var(--panel-header); }
+.text-input { color: var(--input); }
+.text-input-muted { color: var(--input-muted); }
+.text-modal { color: var(--modal); }
+.text-modal-muted { color: var(--modal); }
+.text-success { color: var(--success); }
+.text-error { color: var(--error); }
+.text-warning { color: var(--warning); }
+.text-info { color: var(--info); }
+.text-debug { color: var(--debug); }
+.text-brand-lightest { color: var(--brand-lightest); }
+.text-brand-lighter { color: var(--brand-lighter); }
+.text-brand-light { color: var(--brand-light); }
+.text-brand { color: var(--brand-default); }
+.text-brand-dark { color: var(--brand-dark); }
+.text-brand-darker { color: var(--brand-darker); }
+.text-brand-darkest { color: var(--brand-darkest); }
+
+.placeholder-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--input-placeholder);
+    opacity: 1; /* Firefox */
+}
+
+.placeholder-input\:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--input-placeholder);
+}
+
+.placeholder-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--input-placeholder);
+}
+
+.focus\:ring-brand:focus {
+    --tw-ring-color: var(--brand-default);
+}
+
+[type=checkbox]:focus, [type=radio]:focus {
+    --tw-ring-offset-color: var(--input-bg);
+}
+
+[type='checkbox']:focus, [type='radio']:focus {
+    --tw-ring-offset-color: var(--input-bg);
+}
+
+.data-table tbody tr:nth-child(even)  {
+    background-color: var(--table-row-bg-2);
+}
+
+.data-table tbody tr:nth-child(odd) {
+    background-color: var(--table-row-bg-1);
+}
+
+[x-cloak] {
+    display: none !important;
+}
