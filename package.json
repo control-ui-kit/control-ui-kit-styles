@@ -1,6 +1,6 @@
 {
   "name": "control-ui-kit",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "CSS plugin to add the required Control UI Kit CSS utilities",
   "main": "styles.css",
   "scripts": {
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/control-ui-kit/control-ui-kit-styles/issues"
   },
-  "homepage": "https://github.com/control-ui-kit/control-ui-kit-styles#readme"
+  "homepage": "https://github.com/control-ui-kit/control-ui-kit-styles#readme",
+  "dependencies": {}
 }
