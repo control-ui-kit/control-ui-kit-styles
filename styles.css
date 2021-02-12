@@ -65,6 +65,13 @@
 .border-warning { border-color: var(--warning); }
 .border-info { border-color: var(--info); }
 .border-debug { border-color: var(--debug); }
+.border-brand-lightest { border-color: var(--brand-lightest); }
+.border-brand-lighter { border-color: var(--brand-lighter); }
+.border-brand-light { border-color: var(--brand-light); }
+.border-brand { border-color: var(--brand-default); }
+.border-brand-dark { border-color: var(--brand-dark); }
+.border-brand-darker { border-color: var(--brand-darker); }
+.border-brand-darkest { border-color: var(--brand-darkest); }
 
 .text-default { color: var(--default); }
 .text-muted { color: var(--muted); }
