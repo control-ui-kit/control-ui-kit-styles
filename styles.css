@@ -1,5 +1,5 @@
 @responsive {
-    @variants hover, focus {
+    @variants hover, focus, group-hover {
 
         .bg-app { background-color: var(--app-bg); }
         .bg-footer { background-color: var(--footer-bg); }
