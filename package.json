@@ -1,6 +1,6 @@
 {
   "name": "control-ui-kit",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "CSS plugin to add the required Control UI Kit CSS utilities",
   "main": "styles.css",
   "scripts": {
