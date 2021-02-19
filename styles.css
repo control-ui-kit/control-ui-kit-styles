@@ -15,8 +15,18 @@
         .bg-button-brand-hover { background-color: var(--button-brand-bg-hover); }
         .bg-button-default { background-color: var(--button-default-bg); }
         .bg-button-default-hover { background-color: var(--button-default-bg-hover); }
+        .bg-button-danger { background-color: var(--button-danger-bg); }
+        .bg-button-danger-hover { background-color: var(--button-danger-bg-hover); }
+        .bg-button-info { background-color: var(--button-info-bg); }
+        .bg-button-info-hover { background-color: var(--button-info-bg-hover); }
+        .bg-button-link { background-color: var(--button-link-bg); }
+        .bg-button-link-hover { background-color: var(--button-link-bg-hover); }
         .bg-button-muted { background-color: var(--button-muted-bg); }
         .bg-button-muted-hover { background-color: var(--button-muted-bg-hover); }
+        .bg-button-success { background-color: var(--button-success-bg); }
+        .bg-button-success-hover { background-color: var(--button-success-bg-hover); }
+        .bg-button-warning { background-color: var(--button-warning-bg); }
+        .bg-button-warning-hover { background-color: var(--button-warning-bg-hover); }
         .bg-table-header { background-color: var(--table-header-bg); }
         .bg-table-row-1 { background-color: var(--table-row-bg-1); }
         .bg-table-row-2 { background-color: var(--table-row-bg-2); }
@@ -29,11 +39,18 @@
         .bg-input { background-color: var(--input-bg); }
         .bg-input-brand { background-color: var(--brand-default); }
         .bg-input-muted { background-color: var(--input-muted-bg); }
+
         .bg-success { background-color: var(--success); }
+        .bg-success-dark { background-color: var(--success-dark); }
         .bg-error { background-color: var(--error); }
+        .bg-error-dark { background-color: var(--error-dark); }
         .bg-warning { background-color: var(--warning); }
+        .bg-warning-dark { background-color: var(--warning-dark); }
         .bg-info { background-color: var(--info); }
+        .bg-info-dark { background-color: var(--info-dark); }
+
         .bg-debug { background-color: var(--debug); }
+
         .bg-brand-lightest { background-color: var(--brand-lightest); }
         .bg-brand-lighter { background-color: var(--brand-lighter); }
         .bg-brand-light { background-color: var(--brand-light); }
@@ -54,8 +71,18 @@
         .border-button-brand-hover { border-color: var(--button-brand-border-hover); }
         .border-button-default { border-color: var(--button-default-border); }
         .border-button-default-hover { border-color: var(--button-default-border-hover); }
+        .border-button-danger { border-color: var(--button-danger-border); }
+        .border-button-danger-hover { border-color: var(--button-danger-border-hover); }
+        .border-button-info { border-color: var(--button-info-border); }
+        .border-button-info-hover { border-color: var(--button-info-border-hover); }
+        .border-button-link { border-color: var(--button-link-border); }
+        .border-button-link-hover { border-color: var(--button-link-border-hover); }
         .border-button-muted { border-color: var(--button-muted-border); }
         .border-button-muted-hover { border-color: var(--button-muted-border-hover); }
+        .border-button-success { border-color: var(--button-success-border); }
+        .border-button-success-hover { border-color: var(--button-success-border-hover); }
+        .border-button-warning { border-color: var(--button-warning-border); }
+        .border-button-warning-hover { border-color: var(--button-warning-border-hover); }
         .border-table { border-color: var(--table-border); }
         .border-table-divider { border-color: var(--table-divider); }
         .border-panel { border-color: var(--panel-border); }
@@ -64,9 +91,13 @@
         .border-input { border-color: var(--input-border); }
         .border-input-focus { border-color: var(--input-focus-border); }
         .border-success { border-color: var(--success); }
+        .border-success-dark { border-color: var(--success-dark); }
         .border-error { border-color: var(--error); }
+        .border-error-dark { border-color: var(--error-dark); }
         .border-warning { border-color: var(--warning); }
+        .border-warning-dark { border-color: var(--warning-dark); }
         .border-info { border-color: var(--info); }
+        .border-info-dark { border-color: var(--info-dark); }
         .border-debug { border-color: var(--debug); }
         .border-brand-lightest { border-color: var(--brand-lightest); }
         .border-brand-lighter { border-color: var(--brand-lighter); }
@@ -102,10 +133,30 @@
         .text-button-default-hover { color: var(--button-default-hover); }
         .text-button-default-icon { color: var(--button-default-icon); }
         .text-button-default-icon-hover { color: var(--button-default-icon-hover); }
+        .text-button-danger { color: var(--button-danger); }
+        .text-button-danger-hover { color: var(--button-danger-hover); }
+        .text-button-danger-icon { color: var(--button-danger-icon); }
+        .text-button-danger-icon-hover { color: var(--button-danger-icon-hover); }
+        .text-button-info { color: var(--button-info); }
+        .text-button-info-hover { color: var(--button-info-hover); }
+        .text-button-info-icon { color: var(--button-info-icon); }
+        .text-button-info-icon-hover { color: var(--button-info-icon-hover); }
+        .text-button-link { color: var(--button-link); }
+        .text-button-link-hover { color: var(--button-link-hover); }
+        .text-button-link-icon { color: var(--button-link-icon); }
+        .text-button-link-icon-hover { color: var(--button-link-icon-hover); }
         .text-button-muted { color: var(--button-muted); }
         .text-button-muted-hover { color: var(--button-muted-hover); }
         .text-button-muted-icon { color: var(--button-muted-icon); }
         .text-button-muted-icon-hover { color: var(--button-muted-icon-hover); }
+        .text-button-success { color: var(--button-success); }
+        .text-button-success-hover { color: var(--button-success-hover); }
+        .text-button-success-icon { color: var(--button-success-icon); }
+        .text-button-success-icon-hover { color: var(--button-success-icon-hover); }
+        .text-button-warning { color: var(--button-warning); }
+        .text-button-warning-hover { color: var(--button-warning-hover); }
+        .text-button-warning-icon { color: var(--button-warning-icon); }
+        .text-button-warning-icon-hover { color: var(--button-warning-icon-hover); }
         .text-table-header { color: var(--table-header); }
         .text-table-header-hover { color: var(--table-header-hover); }
         .text-table-row { color: var(--table-row); }
@@ -117,9 +168,13 @@
         .text-modal { color: var(--modal); }
         .text-modal-muted { color: var(--modal); }
         .text-success { color: var(--success); }
+        .text-success-dark { color: var(--success-dark); }
         .text-error { color: var(--error); }
+        .text-error-dark { color: var(--error-dark); }
         .text-warning { color: var(--warning); }
+        .text-warning-dark { color: var(--warning-dark); }
         .text-info { color: var(--info); }
+        .text-info-dark { color: var(--info-dark); }
         .text-debug { color: var(--debug); }
         .text-brand-lightest { color: var(--brand-lightest); }
         .text-brand-lighter { color: var(--brand-lighter); }
@@ -129,8 +184,13 @@
         .text-brand-darker { color: var(--brand-darker); }
         .text-brand-darkest { color: var(--brand-darkest); }
 
+        .ring-brand-lightest { --tw-ring-color: var(--brand-lightest); }
+        .ring-brand-lighter { --tw-ring-color: var(--brand-lighter); }
+        .ring-brand-light { --tw-ring-color: var(--brand-light); }
         .ring-brand { --tw-ring-color: var(--brand-default); }
-
+        .ring-brand-dark { --tw-ring-color: var(--brand-dark); }
+        .ring-brand-darker { --tw-ring-color: var(--brand-darker); }
+        .ring-brand-darkest { --tw-ring-color: var(--brand-darkest); }
     }
 }
 
