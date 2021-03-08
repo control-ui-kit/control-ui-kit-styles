@@ -245,6 +245,11 @@
     background-color: var(--table-row-bg-hover);
 }
 
+.table-divider > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: var(--table-divider);
+}
+
 [x-cloak] {
     display: none !important;
 }
