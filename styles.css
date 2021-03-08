@@ -1,5 +1,5 @@
 @responsive {
-    @variants hover, focus, group-hover {
+    @variants hover, focus, group-hover, focus-within {
 
         .bg-app { background-color: var(--app-bg); }
         .bg-footer { background-color: var(--footer-bg); }
@@ -30,7 +30,21 @@
         .bg-table-header { background-color: var(--table-header-bg); }
         .bg-table-row-1 { background-color: var(--table-row-bg-1); }
         .bg-table-row-2 { background-color: var(--table-row-bg-2); }
-        .bg-table-row-muted { background-color: var(--table-row-muted-bg); }
+        .bg-table-row-hover { background-color: var(--table-row-bg-hover); }
+
+        .bg-alert-brand { background-color: var(--alert-brand-bg); }
+        .bg-alert-brand-hover { background-color: var(--alert-brand-bg-hover); }
+        .bg-alert-danger { background-color: var(--alert-danger-bg); }
+        .bg-alert-danger-hover { background-color: var(--alert-danger-bg-hover); }
+        .bg-alert-info { background-color: var(--alert-info-bg); }
+        .bg-alert-info-hover { background-color: var(--alert-info-bg-hover); }
+        .bg-alert-success { background-color: var(--alert-success-bg); }
+        .bg-alert-success-hover { background-color: var(--alert-success-bg-hover); }
+        .bg-alert-muted { background-color: var(--alert-muted-bg); }
+        .bg-alert-muted-hover { background-color: var(--alert-muted-bg-hover); }
+        .bg-alert-warning { background-color: var(--alert-warning-bg); }
+        .bg-alert-warning-hover { background-color: var(--alert-warning-bg-hover); }
+
         .bg-panel { background-color: var(--panel-bg); }
         .bg-modal { background-color: var(--modal-bg); }
         .bg-modal-blur { background-color: var(--modal-blur-bg); }
@@ -175,6 +189,14 @@
         .text-warning-dark { color: var(--warning-dark); }
         .text-info { color: var(--info); }
         .text-info-dark { color: var(--info-dark); }
+
+        .text-alert-brand { color: var(--alert-brand); }
+        .text-alert-danger { color: var(--alert-danger); }
+        .text-alert-info { color: var(--alert-info); }
+        .text-alert-success { color: var(--alert-success); }
+        .text-alert-muted { color: var(--alert-muted); }
+        .text-alert-warning { color: var(--alert-warning); }
+
         .text-debug { color: var(--debug); }
         .text-brand-lightest { color: var(--brand-lightest); }
         .text-brand-lighter { color: var(--brand-lighter); }
@@ -215,14 +237,22 @@
     --tw-ring-offset-color: var(--input-bg);
 }
 
-.data-table tbody tr:nth-child(even)  {
+.even\:bg-table-row-2:nth-child(even) {
     background-color: var(--table-row-bg-2);
 }
 
-.data-table tbody tr:nth-child(odd) {
-    background-color: var(--table-row-bg-1);
+.even\:bg-table-hover:hover:nth-child(even) {
+    background-color: var(--table-row-bg-hover);
 }
 
 [x-cloak] {
     display: none !important;
+}
+
+.min-w-10 {
+    min-width:2.5rem;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    margin-left: 8px;
 }
